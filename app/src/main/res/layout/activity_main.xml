@@ -20,68 +20,39 @@
         android:layout_marginBottom="5dp"/>
 
     <Button
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
         android:text="@string/movies"
         android:tag="@string/movies"
         android:id="@+id/movies"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/button"
-        android:layout_marginBottom="5dp"
-        android:onClick="buttonPressed" />
+        style="@style/customButtonStyle" />
 
     <Button
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
         android:text="@string/stock_hawk"
         android:tag="@string/stock_hawk"
         android:id="@+id/stock_hawk"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/button"
-        android:layout_marginBottom="5dp"
-        android:onClick="buttonPressed" />
+        style="@style/customButtonStyle" />
 
     <Button
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
         android:text="@string/build_it_bigger"
         android:tag="@string/build_it_bigger"
         android:id="@+id/build_it_bigger"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/button"
-        android:layout_marginBottom="5dp"
-        android:onClick="buttonPressed"/>
+        style="@style/customButtonStyle"/>
 
     <Button
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
         android:text="@string/material"
         android:tag="@string/material"
         android:id="@+id/material"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/button"
-        android:layout_marginBottom="5dp"
-        android:onClick="buttonPressed"/>
+        style="@style/customButtonStyle"/>
 
     <Button
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
         android:text="@string/ubiquitous"
         android:tag="@string/ubiquitous"
         android:id="@+id/ubiquitous"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/button"
-        android:layout_marginBottom="5dp"
-        android:onClick="buttonPressed"/>
+        style="@style/customButtonStyle"/>
 
     <Button
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
         android:text="@string/capstone"
         android:tag="@string/capstone"
         android:id="@+id/capstone"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/button"
-        android:onClick="buttonPressed"/>
+        style="@style/customButtonStyle"/>
 
 </LinearLayout>
